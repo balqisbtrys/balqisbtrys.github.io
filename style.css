@@ -263,6 +263,16 @@ section h2 {
     margin-top: 10px;
 }
 
+.course a {
+    color: lightblue;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.course a:hover {
+    text-decoration: underline;
+}
+
 @media (max-width: 900px) {
 
     header {
@@ -293,3 +303,4 @@ section h2 {
     }
 
 }
+
